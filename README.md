@@ -16,7 +16,7 @@ Passing correlation id in request/response headers
 >
 > :one: `Example01` use a custom middleware, a custom delegation handler and a custom log enricher
 >
-> :two: `Example02` use a custom middleware and a custom delegation handler based on [IHttpContextAccessor](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/http-context)
+> :two: `Example02` use a custom middleware and a custom delegation handler based on [built-in accessor class](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/http-context)
 >
 > :three: `Example03` use a custom middleware and a custom delegation handler based on a [custom accessor class](https://docs.microsoft.com/en-us/dotnet/api/system.threading.asynclocal-1)
 >
