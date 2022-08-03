@@ -5,13 +5,10 @@ Passing correlation id in request/response headers
 
 > In this repo, i m exploring various ways in order to :
 >
-> - pass correlation id in request/response headers
->
-> - use correlation id in trace identifier
->
-> - enrich logs with correlation id
->
-> - pass correlation id across http calls
+> :pushpin: pass correlation id in request/response headers
+> :pushpin: propagate correlation id across http calls
+> :pushpin: use correlation id in trace identifier
+> :pushpin: enrich logs with correlation id
 >
 >
 > :one: `Example01` use a custom middleware, a custom delegation handler and a custom log enricher
