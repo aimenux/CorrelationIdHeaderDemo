@@ -1,3 +1,5 @@
+[![.NET](https://github.com/aimenux/CorrelationIdHeaderDemo/actions/workflows/ci.yml/badge.svg)](https://github.com/aimenux/CorrelationIdHeaderDemo/actions/workflows/ci.yml)
+
 # CorrelationIdHeaderDemo
 ```
 Passing correlation id in request/response headers
