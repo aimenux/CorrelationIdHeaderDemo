@@ -20,6 +20,8 @@ public class CorrelationIdMiddleware
 
     private static string ExtractOrComputeCorrelationId(HttpContext context)
     {
+        if (context is null) return null;
+
         if (context.Request.Headers.TryGetValue(Constants.CorrelationIdHeaderName, out var correlationId) && !string.IsNullOrWhiteSpace(correlationId))
         {
             return correlationId;
