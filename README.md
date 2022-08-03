@@ -6,8 +6,11 @@ Passing correlation id in request/response headers
 > In this repo, i m exploring various ways in order to :
 >
 > :pushpin: pass correlation id in request/response headers
+>
 > :pushpin: propagate correlation id across http calls
+>
 > :pushpin: use correlation id in trace identifier
+>
 > :pushpin: enrich logs with correlation id
 >
 >
